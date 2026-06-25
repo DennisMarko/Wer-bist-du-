@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-labelledby="title">
+  <title id="title">Profil Samir</title>
+  <rect width="240" height="240" fill="#eef3fb"/>
+  <circle cx="120" cy="88" r="47" fill="#355c9b"/>
+  <path d="M41 216c12-46 43-71 79-71s67 25 79 71z" fill="#17202a"/>
+  <circle cx="102" cy="84" r="7" fill="#ffffff"/>
+  <circle cx="138" cy="84" r="7" fill="#ffffff"/>
+  <path d="M99 112c13 10 29 10 42 0" fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round"/>
+</svg>

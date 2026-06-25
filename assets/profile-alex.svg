@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-labelledby="title">
+  <title id="title">Profil Alex</title>
+  <rect width="240" height="240" fill="#eaf6f5"/>
+  <circle cx="120" cy="88" r="46" fill="#147d7e"/>
+  <path d="M43 216c11-47 42-72 77-72s66 25 77 72z" fill="#17202a"/>
+  <circle cx="102" cy="83" r="7" fill="#ffffff"/>
+  <circle cx="138" cy="83" r="7" fill="#ffffff"/>
+  <path d="M99 112c13 11 29 11 42 0" fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round"/>
+</svg>

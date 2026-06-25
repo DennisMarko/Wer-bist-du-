@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-labelledby="title">
+  <title id="title">Profil Lena</title>
+  <rect width="240" height="240" fill="#fff7e7"/>
+  <circle cx="120" cy="88" r="48" fill="#d99a24"/>
+  <path d="M37 216c12-47 44-72 83-72s71 25 83 72z" fill="#2f7d48"/>
+  <circle cx="102" cy="84" r="7" fill="#ffffff"/>
+  <circle cx="138" cy="84" r="7" fill="#ffffff"/>
+  <path d="M96 112c15 13 33 13 48 0" fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round"/>
+</svg>

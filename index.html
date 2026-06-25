@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Wer bist du?</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="intro-panel" aria-labelledby="app-title">
+        <div class="brand-row">
+          <img
+            class="brand-logo"
+            src="https://rennschmiede-pforzheim.de/wp-content/uploads/2019/10/LOGO-wei%C3%9F.png"
+            alt="Rennschmiede Pforzheim"
+          />
+          <span>Rennschmiede Match</span>
+        </div>
+        <div class="intro-copy">
+          <p class="eyebrow">Formula Student Team 2026</p>
+          <h1 id="app-title">Welcher Vorstand oder Teamlead bist du?</h1>
+          <p>
+            Beantworte Fragen zu Technik, Organisation, Teamwork und Rennsport-Mentalitaet.
+            Am Ende bekommst du dein Match aus Vorstand oder Teamleitung inklusive Subteam.
+          </p>
+        </div>
+        <div class="profile-strip" aria-label="Beispielprofile">
+          <img src="https://rennschmiede-pforzheim.de/wp-content/uploads/2026/02/8B6A8862-1-520x781.jpg" alt="Vorstand Rennschmiede" />
+          <img src="https://rennschmiede-pforzheim.de/wp-content/uploads/2025/10/8B6A0440-1024x1536.jpg" alt="Teamleitung Aerodynamics" />
+          <img src="https://rennschmiede-pforzheim.de/wp-content/uploads/2025/10/8B6A0638-200x300.jpg" alt="Teamleitung Media" />
+          <img src="https://rennschmiede-pforzheim.de/wp-content/uploads/2026/03/B6A9767-520x780.jpg" alt="Teamleitung Driverless" />
+        </div>
+      </section>
+
+      <section class="quiz-panel" aria-live="polite">
+        <div id="start-screen" class="screen active">
+          <div class="panel-header">
+            <p class="eyebrow">12 Fragen</p>
+            <h2>Boxenfunk an. Wer bist du im Team?</h2>
+          </div>
+          <div class="match-preview">
+            <div>
+              <span class="preview-number">16</span>
+              <span>Matches</span>
+            </div>
+            <div>
+              <span class="preview-number">12</span>
+              <span>Subteams</span>
+            </div>
+            <div>
+              <span class="preview-number">1</span>
+              <span>Rennschmiede-Profil</span>
+            </div>
+          </div>
+          <button class="primary-button" type="button" id="start-button">Quiz starten</button>
+        </div>
+
+        <div id="quiz-screen" class="screen">
+          <div class="quiz-topbar">
+            <div>
+              <p class="eyebrow" id="question-count">Frage 1 von 12</p>
+              <h2 id="question-text"></h2>
+            </div>
+            <div class="progress-ring" aria-hidden="true">
+              <span id="progress-label">8%</span>
+            </div>
+          </div>
+          <div class="progress-track" aria-hidden="true">
+            <div id="progress-bar"></div>
+          </div>
+          <div id="answers" class="answer-grid"></div>
+          <div class="quiz-actions">
+            <button class="ghost-button" type="button" id="back-button">Zurueck</button>
+            <button class="ghost-button" type="button" id="restart-button">Neu starten</button>
+          </div>
+        </div>
+
+        <div id="result-screen" class="screen">
+          <div class="result-hero">
+            <img id="result-avatar" src="assets/profile-alex.svg" alt="" />
+            <div>
+              <p class="eyebrow">Dein Match</p>
+              <h2 id="result-name"></h2>
+              <p id="result-role"></p>
+            </div>
+          </div>
+          <p id="result-summary" class="result-summary"></p>
+          <div class="score-list" id="score-list"></div>
+          <div class="trait-list" id="trait-list"></div>
+          <p class="source-note">Teamdaten und Fotos basieren auf der Rennschmiede Team-2026-Seite.</p>
+          <button class="primary-button" type="button" id="again-button">Nochmal fahren</button>
+        </div>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>

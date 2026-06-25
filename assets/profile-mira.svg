@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-labelledby="title">
+  <title id="title">Profil Mira</title>
+  <rect width="240" height="240" fill="#fff2ef"/>
+  <circle cx="120" cy="89" r="48" fill="#d85c4a"/>
+  <path d="M39 216c13-46 44-70 81-70s68 24 81 70z" fill="#355c9b"/>
+  <circle cx="102" cy="85" r="7" fill="#ffffff"/>
+  <circle cx="138" cy="85" r="7" fill="#ffffff"/>
+  <path d="M98 111c14 12 30 12 44 0" fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round"/>
+</svg>
